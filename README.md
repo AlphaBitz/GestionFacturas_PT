@@ -11,8 +11,8 @@
 2. Navegar a la carpeta `Back
 3. Ejecutar `dotnet restore`
 4. Ejecutar `dotnet run`
-5. La API estará disponible en `https://localhost:5142`
-6. Documentación Swagger en `https://localhost:5142/swagger`
+5. La API estará disponible en `http://localhost:5142`
+6. Documentación Swagger en `http://localhost:5142/swagger`
 
 ### Frontend
 1. Navegar a la carpeta `Front`

@@ -30,7 +30,7 @@ En un entorno productivo, se recomienda:
 ### Consideraciones Adicionales
 - Para mantener la seguridad, se agregaron las comprobaciones al agregar una NC mayoritariamente en el back.
 - Se habia implementado una condición para que no se pudieran actualizar si la factura estaba fuera de plazo,
-- pero esta fue eliminada debido a la cantidad de solicitudes con este estado en el JSON.
+    pero esta fue eliminada debido a la cantidad de solicitudes con este estado en el JSON.
 - Si se desea automatizar el estado de pago de las facturas se puede implementar un trigger en la bdd,
-- que al final de cada dia actualize los valores, en esta implementación no esta agregado. 
+  que al final de cada dia actualize los valores, en esta implementación no esta agregado. 
 - Si la factura presenta un rut invalido tambien sera eliminada.
